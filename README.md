@@ -30,7 +30,7 @@ The following was added to the JavaScript file to help with randomizing the pass
 
 [GitHub](https://github.com/j-faust/javascript-module-challenge)
 
-[Random Password Generator Webpage]()
+[Random Password Generator Webpage]https://j-faust.github.io/javascript-module-challenge)
 
 ## Web Page Screenshots
 
