@@ -41,9 +41,11 @@ function writePassword() {
       'Include Special Characters?\n(OK=Yes, Cancel=No)'
     );
   
+// variable to declare that 'typesSelected' can be any of Uppercase, Lowercase, Numerics or Special Characters
     typesSelected =
       includeUpperCase || includeLowerCase || includeNumerics || includeSpecials;
   
+// If statement to have window alert show to the user if they do not select at least one of the above character types 
     if (typesSelected === false) {
       window.alert('At least one character type must be included.');
     }
@@ -59,7 +61,7 @@ function writePassword() {
   // console.log(includeNumerics);
   // console.log(includeSpecials);
   
-
+// declaring the 'password' variable should include all of the following that the user selected and generated using the 'generatePassword' Function
   let password = generatePassword(len, includeUpperCase, includeLowerCase, includeNumerics, includeSpecials);
   
   passwordText.value = password;
@@ -70,7 +72,7 @@ function writePassword() {
 generateBtn.addEventListener("click", writePassword);
 
 
-
+// Function to generate the user's password using the selected source characters and randomizing the characters
 function generatePassword(len, includeUpper, includeLower, includeNumeric, includeSpecial) {
 
   // variable to set source characters that the user wil choose below
