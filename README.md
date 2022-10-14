@@ -1,1 +1,4 @@
-# javascript-module-challenge
+# JavaScript Random Password Generator
+
+## Purpose
+
